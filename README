@@ -1,0 +1,18 @@
+This is the kernel Source code for the ZTE V970 / V970M / Smart a18 (MEDIATEK MT6577)
+
+
+Building the Kernel:
+********************
+cd to kernel dir
+********************
+
+- Run script "./build.sh ztev970" to begin with the build process.
+  Once finished, you will find the new zImage file in the kernel root folder (./kernelFile).
+
+- Rename the "kernelFile" to "zImage" and repack with stock RamDisk
+
+
+- To perform a clean build run command "./build.sh clean ztev970".
+
+
+
